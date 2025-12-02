@@ -8,6 +8,7 @@ var app = builder.Build();
 
 //register middleware;
 
+//app.UseDefaultFiles();
 app.UseStaticFiles();
 app.MapDefaultControllerRoute();
 
